@@ -1,0 +1,46 @@
+{
+  "id": "./index.html",
+  "name": "Sapiq · Web3 × Web2 Arbitrage Terminal",
+  "short_name": "Sapiq",
+  "description": "Sapiq demo: live/prematch scanner preview with configurable sounds and opt-in push alerts (backend connection required).",
+  "start_url": "./index.html#/ru/terminal/index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080D14",
+  "theme_color": "#0B1B2A",
+  "orientation": "any",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Terminal",
+      "short_name": "Terminal",
+      "url": "./index.html#/ru/terminal/index.html",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Sapiq.io",
+      "short_name": "Site",
+      "url": "./index.html#/ru/index.html"
+    }
+  ]
+}
